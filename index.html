@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contatta il Supporto</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        text-align: center;
+        background-color: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      .app-icon {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+      .app-name {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      .support-button {
+        padding: 12px 24px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+        display: inline-block;
+        margin-top: 20px;
+      }
+      .support-button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sostituisci il valore src con il link alla tua icona -->
+      <img src="images/icon.png" alt="Icona App" class="app-icon" />
+      <h1>ShakApp Support</h1>
+      <h2>Contatta il nostro supporto</h2>
+      <p>
+        Hai riscontrato un problema o hai bisogno di assistenza?<br />
+        Clicca il pulsante qui sotto:
+      </p>
+      <a
+        class="support-button"
+        href="mailto:supporto@tuaapp.com?subject=Richiesta%20supporto%20-%20ShakApp&body=Ciao%20team%20supporto,%0A%0ASto%20riscontrando%20un%20problema%20con%20l'app.%20Ecco%20i%20dettagli:%0A%0A-%20Dispositivo:%20(es.%20iPhone%2013)%0A-%20Versione%20iOS:%20(es.%2017.0)%0A-%20Versione%20dell'app:%20(es.%201.0.5)%0A-%20Descrizione%20problema:%0A%0A%0AGrazie,%0A[NOME]%0A"
+      >
+        Invia una mail al supporto
+      </a>
+    </div>
+  </body>
+</html>
